@@ -1,6 +1,6 @@
 # Homebrew tap for Quassel
 
-[Quassel](https://github.com/Skryx-L-A/quassel) is free for personal use, source-available, fully offline
+[Quassel](https://github.com/Skryx-L-A/quassel) is free software for fully offline
 voice typing: hold a key, speak, release, and your words are typed wherever your
 cursor is. Speech recognition runs locally via whisper.cpp — no cloud, no account,
 no telemetry.
@@ -20,19 +20,15 @@ in the main repository with each release; file issues there.
 
 ## License
 
-Source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE).
+This tap is free software: you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation, either version 3 of
+the License, or (at your option) any later version. See [LICENSE](LICENSE).
 
-- **Free to use** for personal and other noncommercial purposes, for study and
-  research, by educational, public and nonprofit institutions, and by individuals
-  for their own work, including professional work as freelancer or employee.
-  Organizations may evaluate the software for 60 days. Details:
-  [ADDITIONAL-PERMISSIONS.md](ADDITIONAL-PERMISSIONS.md).
-- **Commercial license required** for use by an organization, such as rolling it
-  out to staff, operating it for others or building it into a product or service:
-  [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
-- Versions up to the tag `last-agpl` remain available under AGPL-3.0-only.
+The cask installs the Quassel release DMG, which carries the license of that Quassel release.
+Quassel itself is licensed under GPL-3.0-or-later, see the
+[main repository](https://github.com/Skryx-L-A/quassel).
+
+Earlier versions keep the license they were published under: the commit tagged `last-agpl` is
+AGPL-3.0-only, and the commit tagged `last-polyform` is PolyForm Noncommercial 1.0.0.
 
 Contributions: see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-This license covers the cask definition in this tap. Quassel itself is licensed
-the same way, see the [main repository](https://github.com/Skryx-L-A/quassel).
