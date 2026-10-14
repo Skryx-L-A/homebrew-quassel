@@ -14,9 +14,9 @@ quarantine flag, so there is no Gatekeeper dialog. On first launch macOS asks on
 for **Microphone**, **Accessibility** and **Input Monitoring** — grant all three,
 then restart Quassel.
 
-The cask here is generated from
+The cask here is copied by hand from
 [`packaging/homebrew/Casks/quassel.rb`](https://github.com/Skryx-L-A/quassel/blob/main/packaging/homebrew/Casks/quassel.rb)
-in the main repository; file issues there.
+in the main repository with each release; file issues there.
 
 ## License
 
